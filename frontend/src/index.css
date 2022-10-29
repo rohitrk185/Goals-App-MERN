@@ -99,6 +99,10 @@ h3 {
   position: relative;
 }
 
+.goal .timestamp {
+  font-size: 0.9em;
+}
+
 .goal .close {
   position: absolute;
   top: 10px;
@@ -211,5 +215,31 @@ h3 {
 
   .heading p {
     font-size: 1.5rem;
+  }
+  .goals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .goal {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 30px 2px 10px;
+    position: relative;
+    font-size: .9rem;
+  }
+
+  .goal .timestamp {
+    font-size: 0.8rem;
+  }
+  
+  .goal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
   }
 }

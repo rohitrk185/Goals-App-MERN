@@ -11,8 +11,8 @@ function Header() {
     const { user } = useSelector((state) => state.auth)
 
     const onLogout = () => {
-        dispatch(logout);
-        dispatch(reset);
+        dispatch(logout());
+        dispatch(reset());
         navigate('/');
     };
 
@@ -25,7 +25,7 @@ function Header() {
                 {user ? (
                     <li>
                         <button className='btn' onClick={onLogout}>
-                            <FaSignInAlt/> Logout
+                            <FaSignOutAlt/> Logout
                         </button>
                     </li>
                 ) : (<>

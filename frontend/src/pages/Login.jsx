@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { FaSignInAlt } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { FaUser } from 'react-icons/fa';
 import { login, reset } from '../features/auth/authSlice';
 import Spinner from '../components/Spinner'
 
@@ -58,7 +57,7 @@ function Login() {
     return <>
         <section className="heading">
             <h1>
-                <FaSignInAlt/> Register
+                <FaSignInAlt/> Login
             </h1>
             <p>Login and start setting goals</p>
         </section>
@@ -86,4 +85,4 @@ function Login() {
     </>
 }
 
-export default Login
+export default Login;
