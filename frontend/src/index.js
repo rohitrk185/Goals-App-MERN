@@ -21,3 +21,13 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+/*
+  "bodyPart": "upper arms",
+    "equipment": "cable",
+    "gifUrl": 
+    "http://d205bpvrqc9yn1.cloudfront.net/1724.gif",
+    "id": "1724",
+    "name": "cable rope high pulley overhead tricep extension",
+    "target": "triceps"
+*/
